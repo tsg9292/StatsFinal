@@ -1,0 +1,587 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     24151,        577]
+NotebookOptionsPosition[     22612,        524]
+NotebookOutlinePosition[     22947,        539]
+CellTagsIndexPosition[     22904,        536]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Take Home Final Report", "Title",
+ CellChangeTimes->{{3.608421157713717*^9, 3.6084211627094593`*^9}}],
+
+Cell["By Taylor Graham", "Subtitle",
+ CellChangeTimes->{{3.608421165242634*^9, 3.6084211680801363`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Problem 1", "Section",
+ CellChangeTimes->{{3.60842118211198*^9, 3.6084211885128*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Question 1:", "Subsection",
+ CellChangeTimes->{{3.6084212464651213`*^9, 3.60842125239263*^9}}],
+
+Cell[TextData[{
+ "The first thing I had to do was to simply plug in all of the data into ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " so that I had something useful to work with.  I did this by just copying \
+line by line from \tthe .txt file provided, and entered those lines into an \
+array.  I then split that huge data array up into the different respectful \
+variables, EX,ECAB,MET,GROW,YOUNG,OLD, and WEST.  The next task was to \
+evaluate the different dependent variables compared against the dependent \
+variable.  I originally did this by just plotting the data for a independent \
+variable and the dependent variable on the same graph, but this turned out to \
+be less useful than I anticipated.  Next was to plot the two different \
+variables as a scatter plot, so you can easily see the correlation between \
+variables.  "
+}], "Text",
+ CellChangeTimes->{{3.608421366678787*^9, 3.608421481625368*^9}, {
+   3.608421524293975*^9, 3.608421637581629*^9}, {3.608421735362256*^9, 
+   3.608421826118086*^9}, 3.608421941892849*^9, 3.6084221654655333`*^9, {
+   3.608422301731551*^9, 3.608422302297735*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\t\t\t\t\t", 
+  RowBox[{
+   GraphicsBox[{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxVkktKw1AUhoMTR0IRBEMVKzrwicGiKBR6wYmDDkrdQBEMxWdeJSAOuoSC
+Ix25BMENZAEVBDfQkeOCG9Dk/xK4B8Lhuyfn8Z971y8feldzjuN4/1/uX19y
+qxunsMD4he2LvdAoviAOEuKb4nFE3qxt55/qfBSbz0lu2+J+yjnxWmCaha3Z
+/HtG3aH6u23xF/V/jsRv1+Qfi03Zj3gtFHcOK33yB/Iz4hP0NiL0rmbiG+p/
+S182gBumjCt/C30DW+/Uh/fEGf93LsTvIfOsVPXEU/Wb3tr544T+S/Qr590g
+7474PPpT7mOReSLidXuf/q7Yi+z9egn9l7NSv/q57J/34Z6g7171P7i/bix+
+7lWsejvMk1APzkJ7nv6T/Ij7Hw2p32K+mHmb6CnfJ/cb8H/MvruP8uacfqn5
+A7pFydo=
+       "]]}, {}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->True,
+    AxesLabel->{
+      FormBox["\"GROW\"", TraditionalForm], 
+      FormBox["\"EX\"", TraditionalForm]},
+    AxesOrigin->{0., 183.},
+    ImageSize->{309., Automatic},
+    Method->{},
+    PlotRange->{{-7.4, 77.8}, {183., 454.}},
+    PlotRangeClipping->True,
+    PlotRangePadding->{{1.7040000000000002`, 1.7040000000000002`}, {5.42, 
+     5.42}}], "            ", 
+   GraphicsBox[{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxdkr1KA1EQhRcLK4sFK7vYWC+ksruVVYokamKMP4tgiMaf/QuLYpEHsAhY
+abUPYCGkSrdVKoU8Qh7AQvAF3Oz5srAOLLOHOXfmnLl3++K+eblmWZaTfcuc
+h3to9OOZ6jJe2sKOr5xS9yLlxbHyODBvr1lM28X5Xh5nwqMQflfZjcV/OBW2
+4c86ZbxO3RqK36H/3DNfn1nU9oWTa9W36G9C6f8F277wpFvoy/m76Puhvomf
+SqD5e/itDFSvMi/to7dZ1HM979TdPvrq+O6hC346YP6B8IePv0Z53qTG+Rv1
++8b/OBLeYF8uemdH+Lst78uO4bfo94+/2ucz/ZyAe8O/E4m/0yj8Sz/1ZLVf
++qV39KNeD8GtAut9wF9EvAf0pvQLz/H3hB74oyF7Wr3PkPtH/zwq8z34yRXz
+H/FzwrzY/AFeFcpU
+       "]]}, {}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->True,
+    AxesLabel->{
+      FormBox["\"ECAB\"", TraditionalForm], 
+      FormBox["\"EX\"", TraditionalForm]},
+    AxesOrigin->{57.4, 183.},
+    ImageSize->{335., Automatic},
+    Method->{},
+    PlotRange->{{57.4, 160.7}, {183., 454.}},
+    PlotRangeClipping->True,
+    PlotRangePadding->{{2.066, 2.066}, {5.42, 5.42}}]}]}]], "Input",
+ CellChangeTimes->{{3.6084216844989023`*^9, 3.6084217322242413`*^9}}],
+
+Cell["\<\
+Out of all six plots, only two really appeared to have a linear correlation, \
+and one was kind of a stretch at that.  I have included the plots of ECAB vs \
+EX, which has the highest linear correlation, as well as GROW vs EX, which \
+could possibly be considered constant, but I threw it in there to make it \
+more interesting!\
+\>", "Text",
+ CellChangeTimes->{{3.608422305702867*^9, 3.608422312983926*^9}}],
+
+Cell[BoxData[
+ RowBox[{"          ", 
+  RowBox[{
+   GraphicsBox[{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxVkjFLw1AUhYODUzZdQhc7KLgpgWIR5FkwtVBok5omaWwVQcHJwcnNH+Dm
+VCcnJ7dObk6d6g9w69TJrX/AxPMl0gvhcN87755zb2716i64XrMsay/7cnTz
+mLjGyuMyNMr3hc+Rzov4DM3XLIt2qPP5QPlTaF7GWXxE5uYveuCorCt+Cq8n
+fBiC8KeJdF1f+fqQ+vCTSPf3LXzwzgt076To+eItU/HsU/pCv069+kjvd5q6
+3xgoXxxRl37tY3yht/Dwi+74QLx36joGf13m1xSagLl00T8Tb+bRH77dKn7b
+4r/R70+EHvVt5rWEN415v13OS3q78PvoNVb5kwZzTvC7KXzkvzoucyrmeoL/
+Yl86YIy/w9W9+PbJ+9zX8BWX+6U9+N83/ecL+qngB/6cuW5F1O3gs9ifVsnX
+faD89RYM6efc/AJ7DB8h
+       "]]}, {}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->True,
+    AxesLabel->{
+      FormBox["\"MET\"", TraditionalForm], 
+      FormBox["\"ECAB\"", TraditionalForm]},
+    AxesOrigin->{0, 57.4},
+    ImageSize->{251., Automatic},
+    Method->{},
+    PlotRange->{{0, 86.5}, {57.4, 160.7}},
+    PlotRangeClipping->True,
+    PlotRangePadding->{{1.73, 1.73}, {2.066, 2.066}}], " ", 
+   GraphicsBox[{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxVki9Pw1AUxRsECoeaAzNNMrP+3VOoCtbStV3ZICQ0QSGm5vYBcKih+AC4
+KRwKNb4DCoXjC7D2/PrIbtLc3PfOOffc+3p6+5DcHTiOc7b7mvy8biI0ThM3
+manb8Mygiadc56tA+T0zLb7nqv6ams/tLmJX52+5eAMXnblwzhB8Jfx2KPxy
+JvwG/Edp+7fpcEZ/X/gyhx/QN0U/wFcl3jf+fyvLVx/ua/y6c2ruj6foRTo/
+7/YRMleKfoDfBD+R8msq3MLg78Lqtckk+On6X1JHzDcW78jgN96f94f5Yx9c
+Kd6621+Bz8juq/Mr/AS8Z/HS95QfS/Txu/qfv039sd2X/GfWn/wW8EboZZyH
+1JP9/dX43eB3mfOO7Htxbd9XugX8keqT7v/ET69Ez7f4bj9t/XLPfpi/f2X+
+AJYCHI0=
+       "]]}, {}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->True,
+    AxesLabel->{
+      FormBox["\"YOUNG\"", TraditionalForm], 
+      FormBox["\"ECAB\"", TraditionalForm]},
+    AxesOrigin->{24., 57.4},
+    ImageSize->{252., Automatic},
+    Method->{},
+    PlotRange->{{24., 32.9}, {57.4, 160.7}},
+    PlotRangeClipping->True,
+    PlotRangePadding->{{0.17799999999999996`, 0.17799999999999996`}, {2.066, 
+     2.066}}], 
+   GraphicsBox[{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxdkj1Ow0AQhS3qlDQRVQoi0YFWQl7/ZUEiYMlSiC33KBJuKajocgAuYCoq
+LuCKO4QD0FHlAlyA2PPNSmYk62m8896bmd3Z5ql8PAqC4Pzw9fjW9pE600dn
+XDNERH7hgj62iaDWT6372h2iqEHy11p4xqJTwQsFH6jfhW7Q+azwsZK/VGN/
+s8Y/Rr+Cn8j5c45+IrxlKbiP8PvHn9yhj59Vv1hwfotehg7YpPCv+I/ffkk/
+mei1IX05yafO6wmiv9X93JNn6KA3ccw/8/MO5R85+47xw6e1Uv9bwMvA03G/
+zRn1EbrXoN43eaH9Hvv5ZR7j9yV+N+P76FbMs8CHug7+99r3I+eXnKufvq/U
+53q/Ms8J/IWc/+j+9H2s0MPX5H4/cl7yn/fxXrs//DQUJQ==
+       "]]}, {}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->True,
+    AxesLabel->{
+      FormBox["\"YOUNG\"", TraditionalForm], 
+      FormBox["\"MET\"", TraditionalForm]},
+    AxesOrigin->{24., 0},
+    ImageSize->{242., Automatic},
+    Method->{},
+    PlotRange->{{24., 32.9}, {0, 86.5}},
+    PlotRangeClipping->True,
+    PlotRangePadding->{{0.17799999999999996`, 0.17799999999999996`}, {1.73, 
+     1.73}}], 
+   GraphicsBox[{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxdUrENwkAMjKhpKQJCEEhIi5Qm//k8PwAVIyBBS8ECrAFrsAaskTkgf2ej
+YCk6+W2f7XOy4+VwGiVJsv1+PcI24XHvrQ3naBuiVT+m3VyoojE/NeH96i0H
+7g3ja6L4OeqTmnwr1tV8z5H3NPSX2h/1c/Zv1Ee9Y96SdU75I3RW55F6xNdE
+Q8yJDXVYkc9rPeKiT0Z+x/wZ55H8FHgNjM+Vb6jnb1/4Xvkj3zgM9f3uCyyp
+t+xTso/R+TGHJ3+h8+Jd8m2Q+4PX6rzg93wv/vYvVC/wLXQ+1E+4z071wX3b
+of6d030R98qH/6vlfHIP2X/KeuH/3Vf0Ap/cM/3Th/0qGz6xLQtC
+       "]]}, {}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->True,
+    AxesLabel->{
+      FormBox["\"OLD\"", TraditionalForm], 
+      FormBox["\"YOUNG\"", TraditionalForm]},
+    AxesOrigin->{5.4, 24.},
+    ImageSize->{247., Automatic},
+    Method->{},
+    PlotRange->{{5.4, 11.9}, {24., 32.9}},
+    PlotRangeClipping->True,
+    PlotRangePadding->{{0.13, 0.13}, {0.17799999999999996`, 
+     0.17799999999999996`}}]}]}]], "Input",
+ CellChangeTimes->{{3.608422332762815*^9, 3.608422362046801*^9}, {
+  3.608422433560767*^9, 3.608422434877852*^9}, {3.60842342764883*^9, 
+  3.608423429640924*^9}}],
+
+Cell["\<\
+When evaluating the relationships between the dependent variables, I found \
+that the YOUNG dataset causes the most colinearity overall, which I thought \
+was interesting.  The graphs above highlight the most colinear variables, \
+though the first two have a pretty small correlation.  \
+\>", "Text",
+ CellChangeTimes->{{3.60842246713799*^9, 3.608422544393029*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 2:", "Subsection",
+ CellChangeTimes->{{3.6084225963007936`*^9, 3.608422620858419*^9}, {
+   3.608422677241342*^9, 3.608422689753215*^9}, 3.608434206289447*^9}],
+
+Cell[TextData[{
+ "Next I was tasked with finding the regression model for this data, which \
+involves finding the 6 different regression coefficients, as well as the \
+intercept.  Luckily enough, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " will do all of the hard work for me, I just had to set it up!  I had to \
+modify how my data was formatted (put y at the end of each array instead of \
+at the beginning).  ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has this really nice built in function that will estimate linear models \
+for you, given an input array and all of the variable names.  I used this \
+method to come up with the lovely formula for the multiple regression model."
+}], "Text",
+ CellChangeTimes->{{3.608422702576025*^9, 3.608422897392208*^9}, {
+  3.608423279759034*^9, 3.608423280316208*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"356.182", " ", "+", " ", 
+   RowBox[{"1.4185", " ", "ECAB"}], " ", "-", " ", 
+   RowBox[{"0.660153", " ", "MET"}], " ", "+", " ", 
+   RowBox[{"0.57159", " ", "GROW"}], " ", "-", " ", 
+   RowBox[{"6.67466", " ", "YOUNG"}], " ", "-", " ", 
+   RowBox[{"1.85507", " ", "OLD"}], " ", "+", " ", 
+   RowBox[{"35.4723", " ", "WEST"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.6084229296049547`*^9, 3.608423008934252*^9}}],
+
+Cell["\<\
+I' m surprised by the last parameter coefficient, for western states.  This \
+means that western states can expect an average of $35.5 more per capita \
+expendatures compared to eastern states.  I fully expected both ECAB and MET \
+to have the biggest effect on the expendatures, But it seems like those two \
+variables have a relitavely small effect on the final outcome.  Even the \
+population age has a greater effect, where high amounts of either young or \
+old people in a state can sort of stunt the expendature totals.\
+\>", "Text",
+ CellChangeTimes->{{3.608423076896221*^9, 3.6084232027801228`*^9}, {
+  3.60842323791374*^9, 3.608423408527624*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 3:", "Subsection",
+ CellChangeTimes->{{3.608423449129628*^9, 3.608423455927099*^9}, 
+   3.60843420427265*^9}],
+
+Cell[TextData[{
+ "For part 3 I decided to add ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["MET", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " to the regression model, so that it would hopefully account for the \
+nonlinearity of the correlation between MET and EX.",
+ Cell[BoxData[
+  FormBox[" ", TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " Following is a scatter plot of ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["MET", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " vs EX, and you can start to see a very small positive linear correlation \
+between the two variables now. \n",
+ Cell[BoxData[
+  GraphicsBox[{{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxdkj1Lw1AUhoOzQweX4mIHBbdIQBRBroJVoWBb6R4ES7F+5KsExaE/wKFr
+nJychU5u+QERuro5OQv+AdO8T1PqgXB57rnnvOecnNrFXftyybIsO/+mpzO1
+sWOswjwj3hLbPveYF5mPLLdGR/ejQPzUKeO7hZ2Lh6FOF78bm+ckt3f8FU98
+P+dC32mRb0B+/BP84an45Up69bbYzPSIr/iKXz4p6yv0dsn34yt+41i8Foi/
+9+E+8QfitIe/XvqLfMkOuj1x1Yi/uuiSP+0zn6b4jfqyeT71XyP+Wu9f6XcU
+oUd+N9D73wY6N8Sv03+M3ib5+F/Z4eI8x7AdkGcFRq/qlP1L74j5+8Sf4b+l
+vj1xMxR/thY52aaeCD0s/bdv7iP9rOp+OCCO+dkh+4H+JOI98/Jm+8N+NB+o
+m31MY/MHgQfB7A==
+       "]]}, {}}, {{}, {}, 
+     {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1:eJwV0Hs01HkYx/GhUBjVlC2zNpJauqxhZ637fNgkCWMiv3J0KsuMUH1/st1U
+JluIrtq0RBRpU0hJsSNEalIh26lE0RLZ1QVNqTH73T+e85zXf+/nmbVuoyRc
+m8Ph+NL5f1scUp/JmVnrNnCwfLk0j6BigrVZjOyUSPOqsjKWunZrcb6VrETE
+c6+ZlUB9S0CkurIbIsch5ZsT1LfTWpeMSB+IkoNfpCqp7zglXv9H+lxkaW5Q
+v/A0gfJIO+mTvhGFXlojHKZeqtDz65VqRM0PDYzl+QT3uPYTx4dOhjD7WGZH
+IYHHIc+aQv8Z6Cg5baJVRBBuM8q15Zpjv1nDX9OKCXytw9995WWJiqn8FVGX
+CMradsbdcbCCVcDwg+QrBM68eSXjdy8Af6qWUX8FgfTz0ewCRoBJdhYpjlUE
+G2+9+r7E1w7embfV4mqC/at056ijhRiXlGdfVEsQ1rgjwlZmD22FRtZUT+/X
+MwmIWukAHTH7uKORwHZKwvH+zU5Ikk43tLtLsGbIdYFftAv8b7s7+t4nyMtp
+MFUdcMPxiznziloILh90am+VAF1vJq381EawudJVnL3MHWSHrtzoMcENZcH7
+lBAPyFNtYiLaCSK9HBWRzE949HeHZG8nwclztuVR6xfhfF31l94ugiNDCvmm
+LZ5IVF9+6dBD0Hs+7hcZuxi58u/qA/oI6hcfPbFnjxdc97fLLg4QaPk/7T6U
+sARmz7h6zYMEHPerWrnbvKGTGtjd/Y4gebrKtzVpKaKq78kdRgg2rQqrUyX6
+wNi5iR/0kaBLLvxZ9NsywEW95cpngmnpvz9NyfPFhkwP3ngNwdnJ87Y1Zvmh
+y517lq/NopY18/y2yB9tMfpjsToscsxzTV0DxTB8meZ/bAILRfwoR9Yshlf5
+7M58AxazfPS+zA4OwDjDfwUfjVhceWCd+qSN+oLzTh6PRdqtMYF5qASJzX8e
+2GjMIj22f/2aZxJ4u93MSJ/BIt545iSLlcvBm9jZWfg1iz+sdZSbXyxHCDP/
+9dhMFrrDWia1qwPR91Y9aGrBolBwaVfOq0B84I67tnMOC+t15/3UMUHQSzat
+vm/Fot37elnQQBBCfaoUvfNZtJ7ZvlAUuwLC9DS5uw2Lj5cDXCzer4C/5Uu3
+MDsWmmts+b4NwYjh+TnG/cDCR7DYM34kGIZ7B1R3HFg0htpERsUyeAuj0h5n
+FrwwWVV2HAOlAf/IEPVqWR63eQuDgkdzWC0XFh/YqWXCeAarol2F31BbJqtG
+1b8yaMiIvhZInVB2I+3wcQaZg8qam9ROeuLS8usMPE8mteS5sthnmKLdV8XA
+XJpeVkLdMqUukF/NYNT2VLqCWmYq/LSrjkFp49WgJ9QZtjM8ltxlwB/qeTLZ
+jcVwyIuHT5/RXu9F3bupsdZkLvc57Z0mvnmAOjVCslXURXufh+RnUVuQetP8
+HtobFxtRQR2w71x4zCDtzT39epD6ZGpXxam3DHKjiu9+oe47zNdvfc9gu33l
+BX0RvScrrdhexUDQ1LJhLnVTbgMn8hMD/YwOfyH19LNjkqzPDHrW9gs8qNcV
+/VhwT82gZsHIFDF1cekmlUZD/6HiDIVS/wdMQDDm
+       "]]}}},
+   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+   Axes->True,
+   AxesLabel->{
+     FormBox["\"MET\"", TraditionalForm], 
+     FormBox["\"EX\"", TraditionalForm]},
+   AxesOrigin->{0, 183.},
+   Method->{},
+   PlotRange->{{0, 86.5}, {183., 454.}},
+   PlotRangeClipping->True,
+   PlotRangePadding->{{1.73, 1.73}, {5.42, 5.42}}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.608425023662714*^9, 3.608425133033435*^9}],
+ "           ",
+ Cell[BoxData[
+  GraphicsBox[{{{}, 
+     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxdkj1IQlEUx6WhwRYhQaKw2qwWIQILlNPUmq4Z2LdkH+89NUOKLJBa8llU
+U4hkU0NaGb6h6OEsZUsKQWVNYkOLe+/ec3hBFx6X3znnf77u651e9cy1GAwG
+u/ax22msZITRdTDwI4DADEdBZLtIdjpCCKoZLWLiDu1JCVxM33qv65s2r1yM
+F5BjmAcSFO+LQL/mHnIryCYBJuVi058v6Mz72bymfGFo09D5Rf6yAPGGW0k5
+z5HTi5AoNm2n73lkoHpvpDeJ0K0JHO1nen9JFt9B+X5EiJovx6Ye0sg9EmhY
+i77sEwew/sAhsuqHGhPMpHX/J+P6Ds3n5/m9g0nkj3m89yheDYDM/E855Bz2
+p7j+8uH8HtIvYX8yzZsM8f01HQdUTwLFGm882y9ovmVg7RotXpo/gv32zVI+
+Cd/PcqLvk8e/HiPbJcozTEz1Smv6/Cy80pWi/Yv8PawLWfKvQFZbn/lxF3k8
+iPr6jc7svW3fW9RPiOrRUf/9b74NsPICY2iPhfkNpSvqL4jv20n1yyG+D3c1
+gyyEQWQL3b6l+lHUj9D/qkbgF7nS01M=
+       "]]}, {}}, {{}, {}, 
+     {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1:eJwVz3k41HkABvCJadexxdTaUCuaVYqMs+0aXhEdju3eekotIm3R7/fTIrQ5
+IqtrJKUM45hRJGoax5gZrWZjU6gncqR9pp6OrRTjSJT2u3+8z/t8nvev1yoo
+cv1uHRaL5Ufyf7/RfvL1DrV279bpTY12pkCLY529CnSxaM7d/nziGMO+ULOC
+6RB41G1rIo5TSVjsAi5WHcmxN3Oh8Plcst9HkTOqPm/qkBOr2NrBQZEnzoy2
+WE+4UrBYNt9nQLQBa9/dVKcspuDfoe5/LwqGsqtYJ5NPAYJkw5VRUZCcNZia
+uooCZ3BzpSD4MHhDUp+b6ym41cWsSzBOgXVVuHXjdgoiRlX++Od0zNmhzCwJ
+o/Bkde+Dce+TqJdstG+hKOxee6gvqFWAoPb0rS3xFDzkH9itEVlgwpptLqZR
+MKzRsGZqssHN/WnuVQEF2wGfiOXHctAtY6QXciksrTW/ydfJhQPdHXFPQqFi
+9U7r25F5GBT4tdytpKA0MJ7gpIugyg5UiusomNdIeipvFcDGTdqt/ovCnORx
+Sm5ahJw74jRlG4VAJ/3MtLBiRMuLO5N6yL/5fsXqfDGGfF9uOfmcQiQ/IHKf
+VoJYdWMo00/BKyfNLsX+EoRP3hTljVFQTztc+NXRy2jqLT9QNJlG9IGFhb7t
+pdiFeE2UMY0Ck+lZOkZXcG7lySPHzcneWeXGDS5HB8+tIsGahvrp6R6p6Cpu
+KBy/kfFoeN3n6uh1VuDLFccptUto1ETIDzzLqsS6pFZhtheNdNPDXYecrmHF
+WOV2uT8Nh/uiPJ/ea1i2xaGseiuN/vF8m5GU6xDNUAgTQ2jsWyMv224lhfhQ
+hkoQQUNZ4pwxekeKaw2jEXGxNO7YNAX7ht/AjvLLfmXJNAZmLpmUxJbh4Hho
+W8kJGn3f64+/vSJDln3D04TzNMSeQ31Ga6qwgf0L90IhDacYN/6eoSqY1QsH
+T5XTiGsrOhpzphq/z7LQNlfT6L3wPHMvrwbrekuzHv5JwyQq9ZOgswa2ye23
+q+7S0KdW7KR+q0Vxs+e8fzpoPIjfYZFqJccPHwNmaDQ0ZGMbC+P/loPzx56y
+irc0NuSGzbYNrYNQqd6vHqHR6Ns1OtVYAccOVf31SQxGLEObS68qECL45P7S
+kIF7WGuQzRoldCu9Q16ZMAhUnNvco1WiVGpvesuSwWLXOE/v0yoMbN029mwB
+g464FQsmnyF+berCsWVwsEGfoz5LHPdovxvx9YDzTzwuEgs3as4T2+2VxfIl
+KvRr/Jv87BhY5r+vcFEQh3tmVy9koK8fMov7ijjWzinDgcGlAFvdp6+JDd78
+WkPsna39V9RHfPGy+DlxCjex2mKQWDnXDI4MJvh5680niCdZsYaJtXTnMc63
+9XifbtIS6MzgdG1+ZNt3xOYPvz5OzGOFbT5lRlyW6VFLvO/EMHfKbOJ7RrLp
+LgxelEyr11tAzDHIbSJOedclbrQjLmxqHybmuhYcT+URO6cZcV0Z7GrgbWO7
+Em9iJycQT+h9wK0fiV80KEqJhQGqeUlLiaMTRx4RL88+OtWDT6wHh8mLGHQ/
+9h3+4k6cMxHuRPwf161Q5A==
+       "]]}}},
+   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+   Axes->True,
+   AxesLabel->{
+     FormBox[
+     "\"\\!\\(\\*SuperscriptBox[\\(MET\\), \\(2\\)]\\)\"", TraditionalForm], 
+     FormBox["\"EX\"", TraditionalForm]},
+   AxesOrigin->{0, 183.},
+   Method->{},
+   PlotRange->{{0, 7482.25}, {183., 454.}},
+   PlotRangeClipping->True,
+   PlotRangePadding->{{149.645, 149.645}, {5.42, 5.42}}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{{3.608424958879322*^9, 3.6084249748909082`*^9}}]
+}], "Text",
+ CellChangeTimes->{{3.6084248132911777`*^9, 3.608424929413796*^9}, {
+  3.608424984608734*^9, 3.6084250931991453`*^9}, {3.6084251392667503`*^9, 
+  3.6084251419451857`*^9}, {3.6084256225710917`*^9, 3.608425640645165*^9}}],
+
+Cell["The regression equation is as follows", "Text",
+ CellChangeTimes->{{3.608425099079205*^9, 3.608425111444976*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"119.118", "\[VeryThinSpace]", "+", 
+   RowBox[{"1.3954201102711945`", " ", "ECAB"}], "-", 
+   RowBox[{"3.0421419680296475`", " ", "MET"}], "+", 
+   RowBox[{"0.6953359948579015`", " ", "GROW"}], "+", 
+   RowBox[{"0.6076015311593128`", " ", "YOUNG"}], "+", 
+   RowBox[{"4.120783858996065`", " ", "OLD"}], "+", 
+   RowBox[{"34.07307852564968`", " ", "WEST"}], "+", 
+   RowBox[{"0.030914", " ", 
+    OverscriptBox[
+     RowBox[{
+      SuperscriptBox["MET", "2"], Cell[""]}], Cell[""]], Cell[""], Cell[
+    ""]}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.608424568978402*^9, 3.608424712026092*^9}}],
+
+Cell[TextData[{
+ "I would say that this model is less accurate compared to the original one \
+that I came up with in part 2.  For one thing, the coefficient before MET is \
+now negative, so having a larger population means lower expendatures, which \
+is opposite from before.  The opposite observation can be made for the young \
+and old variables; they now have a positive effect on expendatures, where it \
+was negative before.  None of this stuff gets accounted for by the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["MET", "2"], " "}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "variable, as its coefficient is a measly 0.03."
+}], "Text",
+ CellChangeTimes->{{3.60842566533381*^9, 3.6084258972702017`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 4:", "Subsection",
+ CellChangeTimes->{{3.608426274671151*^9, 3.6084262818189297`*^9}, 
+   3.608434201664706*^9}],
+
+Cell[TextData[{
+ "Question 4 asks us to take the regression model from part 3, and remove any \
+variables that have a large p-value, until none of the p-values are greater \
+than 0.05.  I started with the regression model from part 2, because I feel \
+that that was a better model for me to work with initially.  ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has another nice function to evaluate the parameters p-values for a linear \
+model, so I used that to determine which parameter had the highest p-value.  \
+Initially, it was the WEST parameter that had the highest p-value, at .79, so \
+I got rid of that value first!  Next I performed another linear analysis to \
+get an updated model without the WEST parameter, and recalculated p-values on \
+this new model.  Again there were large p-values, and I chose to eliminate \
+the OLD parameter, as it had a p-value of .91.  I repeat this process a third \
+time, this time eliminating the ECAB parameter with its p-value of .13, were \
+getting close!  I performed a linear regression one more time, and reached my \
+final model, as all parameters have p-values well under 0.05.  "
+}], "Text",
+ CellChangeTimes->{{3.608426292944405*^9, 3.608426350920817*^9}, {
+  3.608427493710737*^9, 3.608427747173562*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"668.821", "\[VeryThinSpace]", "+", 
+   RowBox[{"1.5265395140430291`", " ", "GROW"}], "-", 
+   RowBox[{"0.9825909755233466`", " ", "MET"}], "-", 
+   RowBox[{"12.99683952923864`", " ", "YOUNG"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.6084274340241756`*^9, 3.608427463331279*^9}, {
+  3.608427893934525*^9, 3.608427995998149*^9}}],
+
+Cell["\<\
+Final p-values for {GROW, MET, YOUNG, EX}\
+\>", "Text",
+ CellChangeTimes->{{3.608427981777172*^9, 3.608428005352626*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "9.857849453694978`*^-6", ",", "0.011798665409315623`", ",", 
+   "0.0008249955383730328`", ",", "0.004860138736657461`"}], 
+  "}"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6084278717252693`*^9, 3.608427892289269*^9}, 
+   3.608427983667313*^9}],
+
+Cell["\<\
+The fact that all of the remaining p-values are well below 0.05 indicates \
+that we can reject the null hypothesis.  This means that we can have \
+confidence that the new model is better than the one calculated in question 3.\
+\>", "Text",
+ CellChangeTimes->{{3.608428022862055*^9, 3.608428063569223*^9}, {
+  3.608428134825383*^9, 3.608428139196711*^9}, {3.608428189121333*^9, 
+  3.6084282036551332`*^9}}]
+}, Open  ]],
+
+Cell["Question 5:", "Subsection",
+ CellChangeTimes->{{3.608428208798378*^9, 3.608428216278726*^9}, 
+   3.608434195690176*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 2", "Section",
+ CellChangeTimes->{{3.6084341647407207`*^9, 3.608434173100849*^9}}],
+
+Cell["Question 1:", "Subsection",
+ CellChangeTimes->{{3.6084341835140467`*^9, 3.608434199209147*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1280, 776},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Linux x86 (64-bit) (February 7, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 107, 1, 93, "Title"],
+Cell[689, 25, 104, 1, 51, "Subtitle"],
+Cell[CellGroupData[{
+Cell[818, 30, 91, 1, 81, "Section"],
+Cell[CellGroupData[{
+Cell[934, 35, 100, 1, 45, "Subsection"],
+Cell[1037, 38, 1119, 18, 111, "Text"],
+Cell[2159, 58, 2080, 48, 222, "Input"],
+Cell[4242, 108, 418, 7, 51, "Text"],
+Cell[4663, 117, 4026, 93, 175, "Input"],
+Cell[8692, 212, 375, 6, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9104, 223, 173, 2, 45, "Subsection"],
+Cell[9280, 227, 832, 16, 91, "Text"],
+Cell[10115, 245, 486, 10, 27, "DisplayFormula"],
+Cell[10604, 257, 665, 10, 91, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11306, 272, 124, 2, 45, "Subsection"],
+Cell[11433, 276, 6560, 133, 283, "Text"],
+Cell[17996, 411, 119, 1, 31, "Text"],
+Cell[18118, 414, 666, 15, 42, "DisplayFormula"],
+Cell[18787, 431, 737, 14, 93, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19561, 450, 127, 2, 45, "Subsection"],
+Cell[19691, 454, 1269, 19, 151, "Text"],
+Cell[20963, 475, 402, 8, 27, "DisplayFormula"],
+Cell[21368, 485, 131, 3, 31, "Text"],
+Cell[21502, 490, 287, 7, 30, "DisplayFormula"],
+Cell[21792, 499, 415, 7, 51, "Text"]
+}, Open  ]],
+Cell[22222, 509, 125, 2, 45, "Subsection"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22384, 516, 96, 1, 81, "Section"],
+Cell[22483, 519, 101, 1, 45, "Subsection"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

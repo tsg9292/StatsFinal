@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     24151,        577]
-NotebookOptionsPosition[     22612,        524]
-NotebookOutlinePosition[     22947,        539]
-CellTagsIndexPosition[     22904,        536]
+NotebookDataLength[     64243,       1602]
+NotebookOptionsPosition[     60616,       1487]
+NotebookOutlinePosition[     61171,       1508]
+CellTagsIndexPosition[     61128,       1505]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -57,10 +57,9 @@ variables.  "
    3.608422301731551*^9, 3.608422302297735*^9}}],
 
 Cell[BoxData[
- RowBox[{"\t\t\t\t\t", 
-  RowBox[{
-   GraphicsBox[{{}, 
-     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+ RowBox[{
+  GraphicsBox[{{}, 
+    {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
 1:eJxVkktKw1AUhoMTR0IRBEMVKzrwicGiKBR6wYmDDkrdQBEMxWdeJSAOuoSC
 Ix25BMENZAEVBDfQkeOCG9Dk/xK4B8Lhuyfn8Z971y8feldzjuN4/1/uX19y
 qxunsMD4he2LvdAoviAOEuKb4nFE3qxt55/qfBSbz0lu2+J+yjnxWmCaha3Z
@@ -69,21 +68,21 @@ S182gBumjCt/C30DW+/Uh/fEGf93LsTvIfOsVPXEU/Wb3tr544T+S/Qr590g
 7474PPpT7mOReSLidXuf/q7Yi+z9egn9l7NSv/q57J/34Z6g7171P7i/bix+
 7lWsejvMk1APzkJ7nv6T/Ij7Hw2p32K+mHmb6CnfJ/cb8H/MvruP8uacfqn5
 A7pFydo=
-       "]]}, {}},
-    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
-    Axes->True,
-    AxesLabel->{
-      FormBox["\"GROW\"", TraditionalForm], 
-      FormBox["\"EX\"", TraditionalForm]},
-    AxesOrigin->{0., 183.},
-    ImageSize->{309., Automatic},
-    Method->{},
-    PlotRange->{{-7.4, 77.8}, {183., 454.}},
-    PlotRangeClipping->True,
-    PlotRangePadding->{{1.7040000000000002`, 1.7040000000000002`}, {5.42, 
-     5.42}}], "            ", 
-   GraphicsBox[{{}, 
-     {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+      "]]}, {}},
+   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+   Axes->True,
+   AxesLabel->{
+     FormBox["\"GROW\"", TraditionalForm], 
+     FormBox["\"EX\"", TraditionalForm]},
+   AxesOrigin->{0., 183.},
+   ImageSize->{309., Automatic},
+   Method->{},
+   PlotRange->{{-7.4, 77.8}, {183., 454.}},
+   PlotRangeClipping->True,
+   PlotRangePadding->{{1.7040000000000002`, 1.7040000000000002`}, {5.42, 
+    5.42}}], "            ", 
+  GraphicsBox[{{}, 
+    {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
 1:eJxdkr1KA1EQhRcLK4sFK7vYWC+ksruVVYokamKMP4tgiMaf/QuLYpEHsAhY
 abUPYCGkSrdVKoU8Qh7AQvAF3Oz5srAOLLOHOXfmnLl3++K+eblmWZaTfcuc
 h3to9OOZ6jJe2sKOr5xS9yLlxbHyODBvr1lM28X5Xh5nwqMQflfZjcV/OBW2
@@ -92,19 +91,20 @@ SqD5e/itDFSvMi/to7dZ1HM979TdPvrq+O6hC346YP6B8IePv0Z53qTG+Rv1
 +8b/OBLeYF8uemdH+Lst78uO4bfo94+/2ucz/ZyAe8O/E4m/0yj8Sz/1ZLVf
 +qV39KNeD8GtAut9wF9EvAf0pvQLz/H3hB74oyF7Wr3PkPtH/zwq8z34yRXz
 H/FzwrzY/AFeFcpU
-       "]]}, {}},
-    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
-    Axes->True,
-    AxesLabel->{
-      FormBox["\"ECAB\"", TraditionalForm], 
-      FormBox["\"EX\"", TraditionalForm]},
-    AxesOrigin->{57.4, 183.},
-    ImageSize->{335., Automatic},
-    Method->{},
-    PlotRange->{{57.4, 160.7}, {183., 454.}},
-    PlotRangeClipping->True,
-    PlotRangePadding->{{2.066, 2.066}, {5.42, 5.42}}]}]}]], "Input",
- CellChangeTimes->{{3.6084216844989023`*^9, 3.6084217322242413`*^9}}],
+      "]]}, {}},
+   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+   Axes->True,
+   AxesLabel->{
+     FormBox["\"ECAB\"", TraditionalForm], 
+     FormBox["\"EX\"", TraditionalForm]},
+   AxesOrigin->{57.4, 183.},
+   ImageSize->{335., Automatic},
+   Method->{},
+   PlotRange->{{57.4, 160.7}, {183., 454.}},
+   PlotRangeClipping->True,
+   PlotRangePadding->{{2.066, 2.066}, {5.42, 5.42}}]}]], "Input",
+ CellChangeTimes->{{3.6084216844989023`*^9, 3.6084217322242413`*^9}, {
+  3.6084726623048477`*^9, 3.608472663121521*^9}}],
 
 Cell["\<\
 Out of all six plots, only two really appeared to have a linear correlation, \
@@ -507,23 +507,992 @@ confidence that the new model is better than the one calculated in question 3.\
   3.6084282036551332`*^9}}]
 }, Open  ]],
 
-Cell["Question 5:", "Subsection",
+Cell[CellGroupData[{
+
+Cell["Question 5 : ", "Subsection",
+ CellChangeTimes->{{3.6084699371714697`*^9, 3.608469976622089*^9}}],
+
+Cell["\<\
+I did my hypothesis test by calculating both f and F for each of the three \
+variables that I removed in part 4.  My results were that for the first two \
+tests, we can still accept our hypothesis, meaning that the variable removal \
+is appropriate.  This means that both WEST and OLD can safely be removed from \
+our mode.  However, on my third test, the one on ECAB, we should reject the \
+hypothesis, as f > F.  This means that ECAB should still be included in the \
+model! So our model formula is now:\
+\>", "Text",
+ CellChangeTimes->{{3.608470595836355*^9, 3.608470630934063*^9}, {
+  3.608470666910454*^9, 3.6084707510059967`*^9}, {3.608470791926538*^9, 
+  3.608470797702805*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"229.906", "+", 
+   RowBox[{"1.68092", " ", "ECAB"}], "+", 
+   RowBox[{"0.76161", " ", "GROW"}], "-", 
+   RowBox[{"0.830069", " ", "MET"}], "-", 
+   RowBox[{"2.91085", " ", "YOUNG"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.608470801516161*^9, 3.608470831569707*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 6:", "Subsection",
  CellChangeTimes->{{3.608428208798378*^9, 3.608428216278726*^9}, 
-   3.608434195690176*^9}]
+   3.608434195690176*^9, {3.608469187959345*^9, 3.6084691907894573`*^9}, {
+   3.608469898125732*^9, 3.608469898470286*^9}}],
+
+Cell["\<\
+I had to do this part in R, as I couldnt find a method in Methematica that \
+would calculate the model for you.  \
+\>", "Text",
+ CellChangeTimes->{{3.6084691930498447`*^9, 3.6084692167184963`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"step", 
+  RowBox[{"(", 
+   RowBox[{"null", ",", " ", 
+    RowBox[{"scope", "=", 
+     RowBox[{"list", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"lower", "=", "null"}], ",", " ", 
+        RowBox[{"upper", "=", "full"}]}], ")"}]}]}], ",", 
+    RowBox[{"direction", "=", "\"\<forward\>\""}]}], ")"}]}], "\n", 
+ RowBox[{
+  RowBox[{"Start", ":", "  ", "AIC"}], "=", 
+  RowBox[{
+   RowBox[{"391.79", "                                       ", 
+    RowBox[{"Step", ":", "  ", "AIC"}]}], "=", "357.27"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"EX", " ", "~", " ", "1"}], "                                                   ", 
+    RowBox[{"EX", " ", "~", " ", "ECAB"}]}], " ", "+", " ", "WEST"}], 
+  "\n"}], "\n", 
+ RowBox[{"        ", 
+  RowBox[{
+  "Df", " ", "Sum", " ", "of", " ", "Sq", "    ", "RSS", "    ", "AIC", "                               ",
+    "Df", " ", "Sum", " ", "of", " ", "Sq", "   ", "RSS", "    ", 
+   "AIC"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"+", " ", "ECAB"}], "   ", "1", "     ", "69845", "  ", "91577", 
+   " ", "366.58"}], "                       ", "<", "none", ">", 
+  "                ", 
+  RowBox[{"72351", " ", "357.27"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"+", " ", "GROW"}], "   ", "1", "     ", "26366", " ", "135056", 
+   " ", "385.23"}], "                       ", "+", " ", 
+  RowBox[{
+  "MET", "    ", "1", "   ", "2194.71", " ", "70156", " ", "357.79"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"+", " ", "WEST"}], "   ", "1", "     ", "22231", " ", "139191", 
+   " ", "386.68"}], "                       ", "+", " ", 
+  RowBox[{
+  "GROW", "   ", "1", "   ", "1273.93", " ", "71077", " ", "358.42"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"+", " ", "YOUNG"}], "  ", "1", "     ", "13948", " ", "147473", 
+   " ", "389.45"}], "                       ", "+", " ", 
+  RowBox[{
+  "OLD", "    ", "1", "     ", "63.82", " ", "72287", " ", "359.23"}]}], "\n", 
+ RowBox[{"<", "none", ">", "               ", 
+  RowBox[{
+   RowBox[{"161422", " ", "391.79"}], "                       ", "+", " ", 
+   RowBox[{
+   "YOUNG", "  ", "1", "     ", "58.55", " ", "72292", " ", 
+    "359.23"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{"+", " ", "MET"}], "    ", "1", "       ", "415", " ", "161007", 
+  " ", "393.66"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"+", " ", "OLD"}], "    ", "1", "        ", "85", " ", "161336", 
+   " ", "393.76"}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"Step", ":", "  ", "AIC"}], "=", "366.58"}], "\n", 
+ RowBox[{
+  RowBox[{"EX", " ", "~", " ", "ECAB"}], "\n"}], "\n", 
+ RowBox[{"        ", 
+  RowBox[{
+  "Df", " ", "Sum", " ", "of", " ", "Sq", "   ", "RSS", "    ", 
+   "AIC"}]}], "\n", 
+ RowBox[{
+  RowBox[{"+", " ", "WEST"}], "   ", "1", "   ", "19226.5", " ", "72351", " ",
+   "357.27"}], "\n", 
+ RowBox[{
+  RowBox[{"+", " ", "MET"}], "    ", "1", "    ", "9237.1", " ", "82340", " ",
+   "363.48"}], "\n", 
+ RowBox[{"<", "none", ">", "               ", 
+  RowBox[{"91577", " ", "366.58"}]}], "\n", 
+ RowBox[{
+  RowBox[{"+", " ", "YOUNG"}], "  ", "1", "    ", "2176.1", " ", "89401", " ",
+   "367.42"}], "\n", 
+ RowBox[{
+  RowBox[{"+", " ", "GROW"}], "   ", "1", "    ", "2110.2", " ", "89467", " ",
+   "367.46"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"+", " ", "OLD"}], "    ", "1", "       ", "6.4", " ", "91571", 
+   " ", "368.58"}], "\n", "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"Call", ":", "\n", 
+   RowBox[{"lm", 
+    RowBox[{"(", 
+     RowBox[{"formula", " ", "=", " ", 
+      RowBox[{
+       RowBox[{"EX", " ", "~", " ", "ECAB"}], " ", "+", " ", "WEST"}]}], 
+     ")"}]}]}], "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"Coefficients", ":", "\n", 
+   RowBox[{
+    RowBox[{"(", "Intercept", ")"}], "         ", "ECAB", "         ", 
+    "WEST"}]}], "  "}], "\n", 
+ RowBox[{"    ", 
+  RowBox[{"102.311", "        ", "1.696", "       ", "40.059"}], " ", "\n", 
+  "\n"}], "\n", 
+ RowBox[{
+  RowBox[{"*", "Note"}], ",", " ", 
+  RowBox[{
+  "you", " ", "get", " ", "the", " ", "same", " ", "formula", " ", "if", " ", 
+   "you", " ", "perform", " ", "the", " ", "step", " ", "backwards"}], ",", 
+  " ", 
+  RowBox[{"or", " ", "both", " ", 
+   RowBox[{"directions", ".", "  ", "\n", "Forward"}], " ", "just", " ", 
+   "gives", " ", "the", " ", "fewest", " ", "results", " ", 
+   RowBox[{"(", 
+    RowBox[{
+    "and", " ", "thus", " ", "is", " ", "the", " ", "cleanest", " ", "for", 
+     " ", "using", " ", "here"}], ")"}]}]}]}], "Code",
+ CellChangeTimes->{{3.608469223394858*^9, 3.6084693008214617`*^9}, 
+   3.608469530666477*^9, {3.6084695937295647`*^9, 3.608469599668716*^9}, {
+   3.608472874814076*^9, 3.6084730064469023`*^9}},
+ FontSize->10],
+
+Cell["\<\
+So the optimal formula that R found is:  \
+\>", "Text",
+ CellChangeTimes->{{3.608469320087356*^9, 3.60846933755898*^9}, {
+  3.608469544942522*^9, 3.608469591447003*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"102.311", "+", 
+   RowBox[{"1.696", "ECAB"}], "+", 
+   RowBox[{"40.059", "WEST"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.608469340083571*^9, 3.6084693764340057`*^9}}],
+
+Cell["\<\
+This model does not match the one I calculated in part 4, or any other model \
+I have calculated either.  Its interesting because in part 4, both ECAB and \
+WEST had the highest p values, causing me to eliminate them first, but \
+acording to R, they are the two that should stay.  Just thinking about what \
+the parameters actually reprsent, it seems like this model is less accurate \
+than the one I caluclated.  For one thing, relying heavily on the WEST \
+parameter seems wrong, since that is just a binary variable (1 or 0).  States \
+in the east will get a $40 penalty according to this model, soley because \
+they are in the east.  In reality, the difference betweeen eastern and \
+western states is not this drastic.  This model does make me happy about \
+putting an emphasis on ECAB however.  I thought since the beginning of this \
+problem that ECAB should have the largest effect on the state expendatures, \
+just based off of the definition of what ECAB is: economic ability.  It makes \
+sense to me that a state with a higher economic ability will have a larger \
+amount of expendatures, as their market is fluxuating more.\
+\>", "Text",
+ CellChangeTimes->{{3.608469399655479*^9, 3.608469461709023*^9}, {
+  3.6084696253271008`*^9, 3.608469651010242*^9}, {3.608469694454267*^9, 
+  3.608469864437961*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+
+Question 7\
+\>", "Subsection",
+ CellChangeTimes->{{3.6084708375322847`*^9, 3.608470854673259*^9}, 
+   3.6084727935219603`*^9}],
+
+Cell["\<\
+I think that the model in part 6 is more accurate than the one in part 4, \
+mainly because of the inclusion of ECAB into the model, which I think is an \
+imporntant factor.  Its pretty rediculous how different the models are, each \
+one has completly unique variables in it, but they both are set to model the \
+same set of data.  \
+\>", "Text",
+ CellChangeTimes->{{3.6084709130811243`*^9, 3.6084709933104486`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 8", "Subsection",
+ CellChangeTimes->{{3.608470999638132*^9, 3.608471011465947*^9}}],
+
+Cell["\<\
+My favorite model so far is actually the one calculated in part 5\
+\>", "Text",
+ CellChangeTimes->{{3.608471031272314*^9, 3.608471053173924*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"229.906", "+", 
+   RowBox[{"1.68092", " ", "ECAB"}], "+", 
+   RowBox[{"0.76161", " ", "GROW"}], "-", 
+   RowBox[{"0.830069", " ", "MET"}], "-", 
+   RowBox[{"2.91085", " ", "YOUNG"}]}]}]], "DisplayFormula"],
+
+Cell["\<\
+I chose this one because it relies on ECAB for a good amount of the \
+expendatures, while not including the excessive weight of the western states \
+that occurs in the model from part 6.  \
+\>", "Text",
+ CellChangeTimes->{{3.6084710770208683`*^9, 3.608471138382534*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 9", "Subsection",
+ CellChangeTimes->{{3.6084714227527742`*^9, 3.608471429314562*^9}}],
+
+Cell["\<\
+The 24 th entry in our data has a GROW value of 77.2, which is well above its \
+average of 18.6.  I am going to remove this data point and see if it has any \
+menaingful effect on the overall model.  I also found two more GROW outliers, \
+at 77.8 and 74.3. The resulting new model is\
+\>", "Text",
+ CellChangeTimes->{{3.608471431752112*^9, 3.6084715192458277`*^9}, {
+  3.608471670254443*^9, 3.608471685950879*^9}, {3.6084717957910967`*^9, 
+  3.6084718006470947`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{
+   RowBox[{"-", "17.7251"}], "+", 
+   RowBox[{"2.8681", " ", "ECAB"}], "+", 
+   RowBox[{"0.988889", " ", "GROW"}], "-", 
+   RowBox[{"0.885007", " ", "MET"}], "+", 
+   RowBox[{"1.90303", " ", "YOUNG"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.6084718026490393`*^9, 3.608471830754653*^9}, {
+  3.608471968430138*^9, 3.608472008241475*^9}}],
+
+Cell["\<\
+I would say that based off of the new model, you need the outliers in the \
+data to sort of balance it out.  In this particular scenario, those GROW \
+outliers that I removed were actual amounts that a states population changed \
+in the 10 year period.  There may have been only three states that grew by \
+this amount (>70), but I think that the data is still necessary and relevant.\
+\
+\>", "Text",
+ CellChangeTimes->{{3.608472022667251*^9, 3.608472132790697*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.608472801385888*^9, 3.6084728271650267`*^9}}]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Problem 2", "Section",
- CellChangeTimes->{{3.6084341647407207`*^9, 3.608434173100849*^9}}],
+ CellChangeTimes->{{3.6084341647407207`*^9, 3.608434173100849*^9}, {
+  3.608472796206917*^9, 3.608472798964798*^9}}],
 
-Cell["Question 1:", "Subsection",
- CellChangeTimes->{{3.6084341835140467`*^9, 3.608434199209147*^9}}]
+Cell[CellGroupData[{
+
+Cell["Question 1: ", "Subsection",
+ CellChangeTimes->{{3.6084341835140467`*^9, 3.608434199209147*^9}, {
+  3.6084631919717216`*^9, 3.608463209805773*^9}}],
+
+Cell["\<\
+This question included the main chunk of caclulations for Problem 2.  Our \
+task was to calculate a bunch of useful data given any input array of \
+dependent variables and the output array of independent variables, named X \
+and Y.  I have included the (very clean) function code for you to look at.\
+\>", "Text",
+ CellChangeTimes->{{3.608463211282391*^9, 3.6084633172304783`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"func", " ", "=", " ", 
+   RowBox[{"Function", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"argX", ",", " ", "argY"}], "}"}], ",", " ", "\n", 
+     RowBox[{"(*", " ", 
+      RowBox[{
+      "Calculating", " ", "the", " ", "\[Beta]", " ", "coeffiients", " ", 
+       "using", " ", "a", " ", "simple", " ", "Least", " ", "Squares", " ", 
+       "Equation"}], " ", "*)"}], "\n", 
+     RowBox[{
+      RowBox[{
+       OverscriptBox["\[Beta]", "^"], " ", "=", " ", 
+       RowBox[{"Dot", "[", 
+        RowBox[{
+         RowBox[{"Inverse", "[", 
+          RowBox[{"Dot", "[", 
+           RowBox[{
+            RowBox[{"Transpose", "[", "argX", "]"}], ",", " ", "argX"}], 
+           "]"}], "]"}], ",", " ", 
+         RowBox[{"Dot", "[", 
+          RowBox[{
+           RowBox[{"Transpose", "[", "argX", "]"}], ",", " ", "argY"}], 
+          "]"}]}], "]"}]}], ";", "  ", "\n", "   ", 
+      RowBox[{"Print", "[", " ", 
+       RowBox[{"\"\<\!\(\*OverscriptBox[\(Y\), \(^\)]\) = \>\"", ",", " ", 
+        RowBox[{
+         RowBox[{
+          OverscriptBox["\[Beta]", "^"], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], " ", "+", " ", 
+         RowBox[{
+          RowBox[{
+           OverscriptBox["\[Beta]", "^"], "[", 
+           RowBox[{"[", "2", "]"}], "]"}], "*", "\"\<ECAB\>\""}], " ", "+", 
+         " ", 
+         RowBox[{
+          RowBox[{
+           OverscriptBox["\[Beta]", "^"], "[", 
+           RowBox[{"[", "3", "]"}], "]"}], "*", "\"\<MET\>\""}], " ", "+", 
+         " ", 
+         RowBox[{
+          RowBox[{
+           OverscriptBox["\[Beta]", "^"], "[", 
+           RowBox[{"[", "4", "]"}], "]"}], "*", "\"\<GROW\>\""}], " ", "+", 
+         " ", 
+         RowBox[{
+          RowBox[{
+           OverscriptBox["\[Beta]", "^"], "[", 
+           RowBox[{"[", "5", "]"}], "]"}], "*", "\"\<YOUNG\>\""}], " ", "+", 
+         " ", 
+         RowBox[{
+          RowBox[{
+           OverscriptBox["\[Beta]", "^"], "[", 
+           RowBox[{"[", "6", "]"}], "]"}], "*", "\"\<OLD\>\""}], " ", "+", 
+         " ", 
+         RowBox[{
+          RowBox[{
+           OverscriptBox["\[Beta]", "^"], "[", 
+           RowBox[{"[", "7", "]"}], "]"}], "*", "\"\<WEST\>\""}]}]}], "]"}], 
+      ";", "\n", "\n", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "Just", " ", "print", " ", "averages", " ", "of", " ", "each", " ", 
+        "parameter"}], " ", "*)"}], "   ", "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<parameter estimates: \>\"", ",", " ", 
+        RowBox[{
+         OverscriptBox["X", "_"], " ", "=", " ", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Mean", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "2", "]"}], "]"}], "]"}], ",", " ", 
+           RowBox[{"Mean", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "3", "]"}], "]"}], "]"}], ",", " ", 
+           RowBox[{"Mean", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "4", "]"}], "]"}], "]"}], ",", " ", "\n", "      ", 
+           
+           RowBox[{"Mean", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "5", "]"}], "]"}], "]"}], ",", " ", 
+           RowBox[{"Mean", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "6", "]"}], "]"}], "]"}], ",", " ", 
+           RowBox[{"Mean", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "7", "]"}], "]"}], "]"}]}], "}"}]}]}], "]"}], ";", 
+      "\n", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+        RowBox[{
+        "Had", " ", "to", " ", "calculate", " ", "the", " ", "std", " ", 
+         "err", " ", "for", " ", "each", " ", "element"}], ",", " ", 
+        RowBox[{
+        "which", " ", "is", " ", "the", " ", "square", " ", "root", " ", "of",
+          " ", "the", " ", "variance"}]}], " ", "*)"}], "   ", "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<std err's: \>\"", ",", " ", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Sqrt", "[", 
+           RowBox[{"Variance", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "2", "]"}], "]"}], "]"}], "]"}], ",", " ", 
+          RowBox[{"Sqrt", "[", 
+           RowBox[{"Variance", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "3", "]"}], "]"}], "]"}], "]"}], ",", " ", 
+          RowBox[{"Sqrt", "[", 
+           RowBox[{"Variance", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "4", "]"}], "]"}], "]"}], "]"}], ",", " ", "\n", 
+          "     ", 
+          RowBox[{"Sqrt", "[", 
+           RowBox[{"Variance", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "5", "]"}], "]"}], "]"}], "]"}], ",", " ", 
+          RowBox[{"Sqrt", "[", 
+           RowBox[{"Variance", "[", 
+            RowBox[{
+             RowBox[{"Transpose", "[", "X", "]"}], "[", 
+             RowBox[{"[", "6", "]"}], "]"}], "]"}], "]"}], ",", " ", 
+          RowBox[{"N", "[", 
+           RowBox[{"Sqrt", "[", 
+            RowBox[{"Variance", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "7", "]"}], "]"}], "]"}], "]"}], "]"}]}], "}"}]}], 
+       "]"}], ";", "\n", "\n", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "T", " ", "values", " ", "calculated", " ", "by", " ", "dividing", " ",
+         "\[Beta]", 
+        SubscriptBox[Cell[""], "i"], " ", "by", " ", "the", " ", "standard", 
+        " ", "deviation", " ", "of", " ", "\[Beta]"}], " ", "*)"}], "   ", 
+      "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<T-values: \>\"", ",", " ", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            OverscriptBox["\[Beta]", "^"], "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "/", 
+           RowBox[{"StandardDeviation", "[", 
+            OverscriptBox["\[Beta]", "^"], "]"}]}], ",", " ", 
+          RowBox[{
+           RowBox[{
+            OverscriptBox["\[Beta]", "^"], "[", 
+            RowBox[{"[", "3", "]"}], "]"}], "/", 
+           RowBox[{"StandardDeviation", "[", 
+            OverscriptBox["\[Beta]", "^"], "]"}]}], ",", " ", 
+          RowBox[{
+           RowBox[{
+            OverscriptBox["\[Beta]", "^"], "[", 
+            RowBox[{"[", "4", "]"}], "]"}], "/", 
+           RowBox[{"StandardDeviation", "[", 
+            OverscriptBox["\[Beta]", "^"], "]"}]}], ",", "\n", "\t", 
+          RowBox[{
+           RowBox[{
+            OverscriptBox["\[Beta]", "^"], "[", 
+            RowBox[{"[", "5", "]"}], "]"}], "/", 
+           RowBox[{"StandardDeviation", "[", 
+            OverscriptBox["\[Beta]", "^"], "]"}]}], ",", " ", 
+          RowBox[{
+           RowBox[{
+            OverscriptBox["\[Beta]", "^"], "[", 
+            RowBox[{"[", "6", "]"}], "]"}], "/", 
+           RowBox[{"StandardDeviation", "[", 
+            OverscriptBox["\[Beta]", "^"], "]"}]}], ",", " ", 
+          RowBox[{
+           RowBox[{
+            OverscriptBox["\[Beta]", "^"], "[", 
+            RowBox[{"[", "7", "]"}], "]"}], "/", 
+           RowBox[{"StandardDeviation", "[", 
+            OverscriptBox["\[Beta]", "^"], "]"}]}]}], "}"}]}], "]"}], ";", 
+      "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"P", " ", "values", " ", "calculated", " ", "with", " ", 
+         OverscriptBox["x", "_"]}], "-", 
+        RowBox[{
+         SubscriptBox["\[Mu]", "o"], "/", 
+         RowBox[{"(", 
+          RowBox[{"s", "/", 
+           SqrtBox["n"]}], ")"}]}]}], " ", "*)"}], "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<P-values: \>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["X", "_"], "[", 
+             RowBox[{"[", "1", "]"}], "]"}], ")"}], "*", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", "48", "]"}], "/", 
+            RowBox[{"StandardDeviation", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "2", "]"}], "]"}], "]"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["X", "_"], "[", 
+             RowBox[{"[", "2", "]"}], "]"}], ")"}], "*", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", "48", "]"}], "/", 
+            RowBox[{"StandardDeviation", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "3", "]"}], "]"}], "]"}]}]}], ",", " ", "\n", "\t", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["X", "_"], "[", 
+             RowBox[{"[", "3", "]"}], "]"}], ")"}], "*", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", "48", "]"}], "/", 
+            RowBox[{"StandardDeviation", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "4", "]"}], "]"}], "]"}]}]}], ",", " ", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["X", "_"], "[", 
+             RowBox[{"[", "4", "]"}], "]"}], ")"}], "*", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", "48", "]"}], "/", 
+            RowBox[{"StandardDeviation", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "5", "]"}], "]"}], "]"}]}]}], ",", " ", "\n", "\t", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["X", "_"], "[", 
+             RowBox[{"[", "5", "]"}], "]"}], ")"}], "*", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", "48", "]"}], "/", 
+            RowBox[{"StandardDeviation", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "6", "]"}], "]"}], "]"}]}]}], ",", " ", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["X", "_"], "[", 
+             RowBox[{"[", "6", "]"}], "]"}], ")"}], "*", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", "48", "]"}], "/", 
+            RowBox[{"StandardDeviation", "[", 
+             RowBox[{
+              RowBox[{"Transpose", "[", "X", "]"}], "[", 
+              RowBox[{"[", "7", "]"}], "]"}], "]"}]}]}]}], "}"}]}], "]"}], 
+      ";", "\n", "\n", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+        RowBox[{"SSE", " ", "and", " ", "SST"}], ",", " ", 
+        RowBox[{
+         RowBox[{"calculated", " ", "with", " ", "SSE"}], "=", 
+         RowBox[{
+          RowBox[{"\[Sum]", 
+           RowBox[{
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{
+               SubscriptBox["y", "i"], "-", 
+               SubscriptBox[
+                OverscriptBox["y", "^"], "i"]}], ")"}], "2"], " ", "and", " ",
+             "SST"}]}], "=", 
+          RowBox[{"\[Sum]", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              SubscriptBox["y", "i"], "-", 
+              OverscriptBox["y", "_"]}], ")"}], "2"]}]}]}]}], " ", "*)"}], 
+      "   ", "\n", 
+      RowBox[{"SSE", " ", "=", " ", "0"}], ";", "\n", 
+      RowBox[{"SST", " ", "=", " ", "0"}], ";", "\n", 
+      RowBox[{"For", "[", 
+       RowBox[{
+        RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
+        RowBox[{"i", " ", "<", " ", "49"}], ",", " ", 
+        RowBox[{"i", "++"}], ",", " ", 
+        RowBox[{"SSE", " ", "=", " ", 
+         RowBox[{"SSE", " ", "+", " ", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"Y", "[", 
+              RowBox[{"[", "i", "]"}], "]"}], "-", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                OverscriptBox["\[Beta]", "^"], "[", 
+                RowBox[{"[", "1", "]"}], "]"}], "+", 
+               RowBox[{
+                RowBox[{
+                 OverscriptBox["\[Beta]", "^"], "[", 
+                 RowBox[{"[", "2", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"Transpose", "[", "X", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"2", ",", " ", "i"}], "]"}], "]"}]}], "+", 
+               RowBox[{
+                RowBox[{
+                 OverscriptBox["\[Beta]", "^"], "[", 
+                 RowBox[{"[", "3", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"Transpose", "[", "X", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"3", ",", " ", "i"}], "]"}], "]"}]}], "+", 
+               RowBox[{
+                RowBox[{
+                 OverscriptBox["\[Beta]", "^"], "[", 
+                 RowBox[{"[", "4", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"Transpose", "[", "X", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"4", ",", " ", "i"}], "]"}], "]"}]}], "+", "\n", 
+               "\t", 
+               RowBox[{
+                RowBox[{
+                 OverscriptBox["\[Beta]", "^"], "[", 
+                 RowBox[{"[", "5", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"Transpose", "[", "X", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"5", ",", " ", "i"}], "]"}], "]"}]}], "+", 
+               RowBox[{
+                RowBox[{
+                 OverscriptBox["\[Beta]", "^"], "[", 
+                 RowBox[{"[", "6", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"Transpose", "[", "X", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"6", ",", " ", "i"}], "]"}], "]"}]}], "+", 
+               RowBox[{
+                RowBox[{
+                 OverscriptBox["\[Beta]", "^"], "[", 
+                 RowBox[{"[", "7", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"Transpose", "[", "X", "]"}], "[", 
+                 RowBox[{"[", 
+                  RowBox[{"7", ",", " ", "i"}], "]"}], "]"}]}]}], ")"}]}], 
+            ")"}], "^", "2"}]}]}]}], "]"}], ";", "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<SSE = \>\"", ",", " ", "SSE"}], "]"}], ";", "\n", 
+      RowBox[{"For", "[", 
+       RowBox[{
+        RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
+        RowBox[{"i", " ", "<", " ", "49"}], ",", " ", 
+        RowBox[{"i", "++"}], ",", " ", 
+        RowBox[{"SST", " ", "=", " ", 
+         RowBox[{"SST", " ", "+", " ", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"Y", "[", 
+              RowBox[{"[", "i", "]"}], "]"}], " ", "-", " ", 
+             RowBox[{"Mean", "[", "Y", "]"}]}], ")"}], "^", "2"}]}]}]}], 
+       "]"}], ";", "\n", "\n", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+        SuperscriptBox["R", "2"], ",", " ", 
+        SuperscriptBox[
+         SubscriptBox["R", "\[Alpha]"], "2"], ",", " ", 
+        RowBox[{
+         RowBox[{"and", " ", "the", " ", "F"}], "-", 
+         RowBox[{
+         "statistic", " ", "can", " ", "all", " ", "be", " ", "calculated", 
+          " ", "using", " ", "SSE", " ", "and", " ", "SST"}]}], ",", " ", 
+        RowBox[{"which", " ", "I", " ", "already", " ", 
+         RowBox[{"have", "!"}]}]}], " ", "*)"}], "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<\!\(\*SuperscriptBox[\(R\), \(2\)]\) = \>\"", ",", " ", 
+        RowBox[{"1", " ", "-", " ", 
+         RowBox[{"SSE", "/", "SST"}]}]}], "]"}], ";", "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<R\!\(\*SuperscriptBox[Cell[TextData[Cell[BoxData[
+FormBox[
+SubscriptBox[\"\", \"\[Alpha]\"], TraditionalForm]],
+FormatType->\"TraditionalForm\"]]], \"2\"]\) = \>\"", ",", " ", 
+        RowBox[{"1", " ", "-", " ", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"SSE", "/", 
+            RowBox[{"(", 
+             RowBox[{"48", " ", "-", " ", "6", " ", "-", " ", "1"}], ")"}]}], 
+           ")"}], "/", 
+          RowBox[{"(", 
+           RowBox[{"SST", "/", 
+            RowBox[{"(", 
+             RowBox[{"48", " ", "-", " ", "1"}], ")"}]}], ")"}]}]}]}], "]"}], 
+      ";", "\n", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<F-Statistic = \>\"", ",", " ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"SST", " ", "-", " ", "SSE"}], ")"}], "/", "6"}], ")"}], 
+         "/", 
+         RowBox[{"(", 
+          RowBox[{"SSE", "/", 
+           RowBox[{"(", 
+            RowBox[{"48", " ", "-", " ", "6", " ", "-", " ", "1"}], ")"}]}], 
+          ")"}]}]}], "]"}], ";"}]}], "\n", "]"}]}], ";"}]], "Code",
+ CellChangeTimes->{{3.608463333259201*^9, 3.608463361982057*^9}, {
+  3.608463392304977*^9, 3.608463826890678*^9}, {3.608463895030702*^9, 
+  3.608464328172791*^9}}],
+
+Cell["\<\
+As you can tell, I did not output the first part in a table, mainly because I \
+couldn' t figure out how to format Mathematica output very well.  I had a \
+little trouble with defining functions in Mathematica, because it\
+\[CloseCurlyQuote]s not very intuitive.  Regardless, all of the necessary \
+output is there, so I figured it wasn\[CloseCurlyQuote]t a huge deal.\
+\>", "Text",
+ CellChangeTimes->{{3.608464361999958*^9, 3.608464477942486*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 2", "Subsection",
+ CellChangeTimes->{{3.6084643378399763`*^9, 3.6084643451001673`*^9}}],
+
+Cell[TextData[{
+ "For this question I just replaced all of the MET values that I have been \
+using with the respective ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " value, which ranged from 1 to 6.  The resulting ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " array is as follows:"
+}], "Text",
+ CellChangeTimes->{{3.608465182499301*^9, 3.608465226694952*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MET2", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "2", ",", " ", "2", ",", " ", "1", ",", " ", "6", ",", " ", "6", ",", " ",
+      "6", ",", " ", "6", ",", " ", "6", ",", " ", "6", ",", " ", "5", ",", 
+     " ", "6", ",", " ", "4", ",", " ", "5", ",", " ", "5", ",", " ", "4", 
+     ",", " ", "6", ",", " ", "4", ",", " ", "3", ",", " ", "3", ",", " ", 
+     "4", ",", " ", "2", ",", " ", "3", ",", " ", "4", ",", " ", "5", ",", 
+     " ", "4", ",", " ", "1", ",", " ", "4", ",", " ", "3", ",", " ", "4", 
+     ",", " ", "1", ",", " ", "1", ",", " ", "3", ",", " ", "3", ",", " ", 
+     "1", ",", " ", "2", ",", " ", "3", ",", " ", "5", ",", " ", "2", ",", 
+     " ", "5", ",", " ", "2", ",", " ", "1", ",", " ", "1", ",", " ", "1", 
+     ",", " ", "5", ",", " ", "5", ",", " ", "4", ",", " ", "5", ",", " ", 
+     "6"}], "}"}]}], ";"}]], "DisplayFormula",
+ CellChangeTimes->{{3.608464573960268*^9, 3.6084646069427977`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 3", "Subsection",
+ CellChangeTimes->{{3.6084646188726263`*^9, 3.608464626001899*^9}}],
+
+Cell[TextData[{
+ "Now, using my lovely function that I made eralier in question 1, I was able \
+to evaluate the regression model including the updated ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " values.  I did this by building a new X array which includes the new ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " array instead of the old MET values.  I kept the standard model with all \
+the parameters to make calculations easier.  I could then just plug my two \
+arrays (XNEW and Y) into my function and get some output!"
+}], "Text",
+ CellChangeTimes->{{3.608464764550346*^9, 3.608464855534216*^9}, {
+  3.6084648955069313`*^9, 3.608464907819981*^9}, {3.608465020574472*^9, 
+  3.608465037540354*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  OverscriptBox["Y", "^"], " ", "=", " ", 
+  RowBox[{"354.978", " ", "+", " ", 
+   RowBox[{"1.42347", " ", "ECAB"}], " ", "+", " ", 
+   RowBox[{"0.551514", " ", "GROW"}], " ", "-", " ", 
+   RowBox[{"10.2371", " ", "MET"}], " ", "-", " ", 
+   RowBox[{"1.69596", " ", "OLD"}], " ", "+", " ", 
+   RowBox[{"33.2001", " ", "WEST"}], " ", "-", " ", 
+   RowBox[{"6.39627", " ", "YOUNG"}]}]}], "\n", 
+ RowBox[{"List", " ", "of", " ", "parameter", " ", 
+  RowBox[{"estimates", " ", ":", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "96.7542", ",", " ", "46.1687", ",", " ", "18.7292", ",", " ", "28.1146", 
+     ",", " ", "9.2125", ",", " ", 
+     RowBox[{"1", "/", "2"}]}], "}"}]}]}], "\n", 
+ RowBox[{"List", " ", "of", " ", "std", " ", 
+  RowBox[{"err", "'"}], " ", 
+  RowBox[{"s", " ", ":", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "22.2528", ",", " ", "26.9388", ",", " ", "18.8747", ",", " ", "2.14853", 
+     ",", " ", "1.63936", ",", " ", "0.505291"}], "}"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{"List", " ", "of", " ", "T"}], "-", 
+  RowBox[{"values", " ", ":", " ", 
+   RowBox[{"{", 
+    RowBox[{"0.0106339", ",", " ", 
+     RowBox[{"-", "0.0764753"}], ",", " ", "0.00412005", ",", " ", 
+     RowBox[{"-", "0.047783"}], ",", " ", 
+     RowBox[{"-", "0.0126696"}], ",", " ", "0.248019"}], "}"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{"List", " ", "of", " ", "P"}], "-", 
+  RowBox[{"values", " ", ":", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "30.1235", ",", " ", "11.8738", ",", " ", "6.87477", ",", " ", "90.6591", 
+     ",", " ", "38.9335", ",", " ", 
+     RowBox[{"Sqrt", "[", "47", "]"}]}], "}"}]}]}], "\n", 
+ RowBox[{"SSE", " ", "=", " ", 
+  RowBox[{"1.2283", "*", 
+   RowBox[{"10", "^", "7"}]}]}], "\n", 
+ RowBox[{
+  SuperscriptBox["R", "2"], " ", "=", " ", 
+  RowBox[{"-", "74.6011"}]}], "\n", 
+ RowBox[{
+  SuperscriptBox[
+   SubscriptBox["R", "\[Alpha]"], "2"], " ", "=", " ", 
+  RowBox[{"-", "85.6647"}]}], "\n", 
+ RowBox[{
+  RowBox[{"F", "-", "Statistic"}], " ", "=", " ", 
+  RowBox[{"-", "6.74295"}]}]}], "DisplayFormula",
+ CellChangeTimes->{{3.6084649129167843`*^9, 3.608464912919937*^9}, {
+  3.608464944637109*^9, 3.608464955048483*^9}, {3.608465056640019*^9, 
+  3.608465071797635*^9}, {3.608465507795742*^9, 3.608465540868248*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 4", "Subsection",
+ CellChangeTimes->{{3.608464628326727*^9, 3.608464633887904*^9}}],
+
+Cell[TextData[{
+ "From the results in question 3, I am now able to build a new regression \
+model with the update ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " values.  "
+}], "Text",
+ CellChangeTimes->{{3.608464974973481*^9, 3.6084650104170732`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["Y", "^"], " ", "=", " ", 
+  RowBox[{"354.978", " ", "+", " ", 
+   RowBox[{"1.42347", " ", "ECAB"}], " ", "+", " ", 
+   RowBox[{"0.551514", " ", "GROW"}], " ", "-", " ", 
+   RowBox[{"10.2371", " ", 
+    SubscriptBox["MET", "categ"]}], " ", "-", " ", 
+   RowBox[{"1.69596", " ", "OLD"}], " ", "+", " ", 
+   RowBox[{"33.2001", " ", "WEST"}], " ", "-", " ", 
+   RowBox[{"6.39627", " ", "YOUNG"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.60846509621377*^9, 3.608465098159484*^9}, 
+   3.608465379348914*^9}],
+
+Cell["Here was my original model", "Text",
+ CellChangeTimes->{{3.608465383042109*^9, 3.6084653959763803`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  OverscriptBox["EX", "^"], "=", 
+  RowBox[{"356.182", " ", "+", " ", 
+   RowBox[{"1.4185", " ", "ECAB"}], " ", "-", " ", 
+   RowBox[{"0.660153", " ", "MET"}], " ", "+", " ", 
+   RowBox[{"0.57159", " ", "GROW"}], " ", "-", " ", 
+   RowBox[{"6.67466", " ", "YOUNG"}], " ", "-", " ", 
+   RowBox[{"1.85507", " ", "OLD"}], " ", "+", " ", 
+   RowBox[{"35.4723", " ", "WEST"}]}]}]], "DisplayFormula"],
+
+Cell[TextData[{
+ "This formula gives the ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " a higher weight than the originl MET, which makes sense, because the \
+magnitude of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " values, ranging from 1 to 6, are typically smaller than the MET values, \
+which can range from 0 to 100.  Because of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["MET", "categ"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\[CloseCurlyQuote]s increase in weight, all of the weights for the other \
+parameters dropped ever so slightly to compensate.  I still expected ECAB to \
+have the largest effect on the total expendatures, at least, thats what I \
+assume based off of its name.  However, it has one of the smaller weights \
+attached to it."
+}], "Text",
+ CellChangeTimes->{{3.608465163531616*^9, 3.608465176917307*^9}, {
+  3.608465260324914*^9, 3.608465348270959*^9}, {3.608465430502697*^9, 
+  3.6084654670301447`*^9}, {3.608465865466751*^9, 3.608465885636298*^9}, {
+  3.608465932406828*^9, 3.6084659763426523`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Question 5", "Subsection",
+ CellChangeTimes->{{3.608466014188609*^9, 3.6084660211174088`*^9}}],
+
+Cell[TextData[{
+ "Honestly, I think you do lose a little bit of information when using a \
+categorical covariate vs a contunious covariate.  The categorical values are \
+more broad (values ranging from 1 to 6) than the contunious values (values \
+ranging from 0 to 100).  Although the categorical covariate has a larger \
+weight to make up for its smaller values, I still think you lose some \
+accuracy in the data.  For example, using a contunious covariate, a MET value \
+of 46.2 will give you a different result than a MET value of 59.9, but both \
+of those MET values get smashed into the categorical value 4 (45 ",
+ Cell[BoxData[
+  FormBox[
+   UnderscriptBox["<", "_"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " MET < 60). I guess the benefit is that it is a little easier to work with, \
+because you only have 6 possibilities rather than 100.  If you could get the \
+computer to do this coversion for you (unlike what I did), it would become \
+more efficient for finding the multiple regression model."
+}], "Text",
+ CellChangeTimes->{{3.608466041674739*^9, 3.608466393805871*^9}}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1280, 776},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"PaperOrientation"->"Portrait",
+"PaperSize"->{Automatic, Automatic},
+"PostScriptOutputFile"->"",
+"PrintingMargins"->{{36, 36}, {54, 54}}},
 FrontEndVersion->"9.0 for Linux x86 (64-bit) (February 7, 2013)",
 StyleDefinitions->"Default.nb"
 ]
@@ -546,37 +1515,93 @@ Cell[818, 30, 91, 1, 81, "Section"],
 Cell[CellGroupData[{
 Cell[934, 35, 100, 1, 45, "Subsection"],
 Cell[1037, 38, 1119, 18, 111, "Text"],
-Cell[2159, 58, 2080, 48, 222, "Input"],
-Cell[4242, 108, 418, 7, 51, "Text"],
-Cell[4663, 117, 4026, 93, 175, "Input"],
-Cell[8692, 212, 375, 6, 51, "Text"]
+Cell[2159, 58, 2075, 48, 222, "Input"],
+Cell[4237, 108, 418, 7, 51, "Text"],
+Cell[4658, 117, 4026, 93, 175, "Input"],
+Cell[8687, 212, 375, 6, 51, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9104, 223, 173, 2, 45, "Subsection"],
-Cell[9280, 227, 832, 16, 91, "Text"],
-Cell[10115, 245, 486, 10, 27, "DisplayFormula"],
-Cell[10604, 257, 665, 10, 91, "Text"]
+Cell[9099, 223, 173, 2, 45, "Subsection"],
+Cell[9275, 227, 832, 16, 91, "Text"],
+Cell[10110, 245, 486, 10, 27, "DisplayFormula"],
+Cell[10599, 257, 665, 10, 91, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11306, 272, 124, 2, 45, "Subsection"],
-Cell[11433, 276, 6560, 133, 283, "Text"],
-Cell[17996, 411, 119, 1, 31, "Text"],
-Cell[18118, 414, 666, 15, 42, "DisplayFormula"],
-Cell[18787, 431, 737, 14, 93, "Text"]
+Cell[11301, 272, 124, 2, 45, "Subsection"],
+Cell[11428, 276, 6560, 133, 283, "Text"],
+Cell[17991, 411, 119, 1, 31, "Text"],
+Cell[18113, 414, 666, 15, 42, "DisplayFormula"],
+Cell[18782, 431, 737, 14, 93, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19561, 450, 127, 2, 45, "Subsection"],
-Cell[19691, 454, 1269, 19, 151, "Text"],
-Cell[20963, 475, 402, 8, 27, "DisplayFormula"],
-Cell[21368, 485, 131, 3, 31, "Text"],
-Cell[21502, 490, 287, 7, 30, "DisplayFormula"],
-Cell[21792, 499, 415, 7, 51, "Text"]
-}, Open  ]],
-Cell[22222, 509, 125, 2, 45, "Subsection"]
+Cell[19556, 450, 127, 2, 45, "Subsection"],
+Cell[19686, 454, 1269, 19, 151, "Text"],
+Cell[20958, 475, 402, 8, 27, "DisplayFormula"],
+Cell[21363, 485, 131, 3, 31, "Text"],
+Cell[21497, 490, 287, 7, 30, "DisplayFormula"],
+Cell[21787, 499, 415, 7, 51, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22384, 516, 96, 1, 81, "Section"],
-Cell[22483, 519, 101, 1, 45, "Subsection"]
+Cell[22239, 511, 103, 1, 45, "Subsection"],
+Cell[22345, 514, 695, 11, 71, "Text"],
+Cell[23043, 527, 340, 8, 27, "DisplayFormula"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23420, 540, 223, 3, 45, "Subsection"],
+Cell[23646, 545, 207, 4, 31, "Text"],
+Cell[23856, 551, 4642, 122, 628, "Code"],
+Cell[28501, 675, 179, 4, 31, "Text"],
+Cell[28683, 681, 242, 6, 27, "DisplayFormula"],
+Cell[28928, 689, 1325, 19, 151, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30290, 713, 137, 5, 71, "Subsection"],
+Cell[30430, 720, 425, 7, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30892, 732, 98, 1, 45, "Subsection"],
+Cell[30993, 735, 155, 3, 31, "Text"],
+Cell[31151, 740, 274, 7, 27, "DisplayFormula"],
+Cell[31428, 749, 280, 5, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31745, 759, 100, 1, 45, "Subsection"],
+Cell[31848, 762, 477, 8, 51, "Text"],
+Cell[32328, 772, 410, 10, 27, "DisplayFormula"],
+Cell[32741, 784, 476, 8, 71, "Text"],
+Cell[33220, 794, 390, 6, 297, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33659, 806, 145, 2, 81, "Section"],
+Cell[CellGroupData[{
+Cell[33829, 812, 153, 2, 45, "Subsection"],
+Cell[33985, 816, 391, 6, 51, "Text"],
+Cell[34379, 824, 16907, 426, 826, "Code"],
+Cell[51289, 1252, 458, 7, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51784, 1264, 102, 1, 45, "Subsection"],
+Cell[51889, 1267, 502, 14, 54, "Text"],
+Cell[52394, 1283, 966, 16, 48, "DisplayFormula"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53397, 1304, 100, 1, 45, "Subsection"],
+Cell[53500, 1307, 844, 18, 77, "Text"],
+Cell[54347, 1327, 2250, 55, 206, "DisplayFormula"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[56634, 1387, 98, 1, 45, "Subsection"],
+Cell[56735, 1390, 322, 9, 34, "Text"],
+Cell[57060, 1401, 547, 12, 29, "DisplayFormula"],
+Cell[57610, 1415, 110, 1, 31, "Text"],
+Cell[57723, 1418, 418, 9, 27, "DisplayFormula"],
+Cell[58144, 1429, 1192, 27, 97, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59373, 1461, 100, 1, 45, "Subsection"],
+Cell[59476, 1464, 1100, 18, 133, "Text"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
@@ -584,4 +1609,3 @@ Cell[22483, 519, 101, 1, 45, "Subsection"]
 *)
 
 (* End of internal cache information *)
-
